@@ -1,0 +1,16 @@
+{"@timestamp":"2021-01-27T11:51:58.709+08","level":"info","content":"Starting prometheus agent at 127.0.0.1:9091"}
+{"@timestamp":"2021-01-27T11:52:34.728+08","level":"info","duration":"318.0ms","content":"fail - discov:/localhost:2379/add.rpc/add.adder/add - book:\"php-thinkphp\" price:8 - rpc error: code = Unknown desc = Error 1062: Duplicate entry 'php-thinkphp' for key 'PRIMARY'","trace":"22e3cb1804ffd0d7","span":"0.1"}
+{"@timestamp":"2021-01-27T11:52:34.728+08","level":"info","content":"400 - /add?book=php-thinkphp\u0026price=8 - [::1]:49561 - PostmanRuntime/7.26.8 - 318.0ms","trace":"22e3cb1804ffd0d7","span":"0"}
+{"@timestamp":"2021-01-27T11:52:41.873+08","level":"info","content":"200 - /check?book=php - [::1]:49561 - PostmanRuntime/7.26.8 - 389.0ms","trace":"a0f52e4401430e47","span":"0"}
+{"@timestamp":"2021-01-27T11:52:42.553+08","level":"info","content":"200 - /check?book=php - [::1]:49561 - PostmanRuntime/7.26.8 - 3.0ms","trace":"221be5e9b7b1a98b","span":"0"}
+{"@timestamp":"2021-01-27T11:52:53.302+08","level":"info","content":"200 - /add?book=php-thinkjava\u0026price=80 - [::1]:49561 - PostmanRuntime/7.26.8 - 9.0ms","trace":"ab97290a1285f382","span":"0"}
+{"@timestamp":"2021-01-27T16:05:51.375+08","level":"info","content":"Starting prometheus agent at 127.0.0.1:9091"}
+{"@timestamp":"2021-01-27T16:06:56.305+08","level":"info","content":"Starting prometheus agent at 127.0.0.1:9091"}
+{"@timestamp":"2021-01-27T16:32:16.793+08","level":"info","duration":"319.0ms","content":"fail - discov:/localhost:2379/add.rpc/add.adder/add - book:\"php-thinkjava\"  price:80 - rpc error: code = Unknown desc = Error 1062: Duplicate entry 'php-thinkjava' for key 'PRIMARY'","trace":"5b973fc3cb3ac377","span":"0.1"}
+{"@timestamp":"2021-01-27T16:32:16.794+08","level":"info","content":"400 - /add?book=php-thinkjava\u0026price=80 - [::1]:51111 - PostmanRuntime/7.26.8 - 320.0ms","trace":"5b973fc3cb3ac377","span":"0"}
+{"@timestamp":"2021-01-27T16:32:23.031+08","level":"info","content":"200 - /check?book=php - [::1]:51111 - PostmanRuntime/7.26.8 - 15.0ms","trace":"9a84369c6e9d1790","span":"0"}
+{"@timestamp":"2021-01-27T16:32:23.847+08","level":"info","content":"200 - /check?book=php - [::1]:51111 - PostmanRuntime/7.26.8 - 1.0ms","trace":"2fcb0cab9bee9c73","span":"0"}
+{"@timestamp":"2021-01-27T16:32:24.271+08","level":"info","content":"200 - /check?book=php - [::1]:51111 - PostmanRuntime/7.26.8 - 1.0ms","trace":"9f5c8a82c5302e01","span":"0"}
+{"@timestamp":"2021-01-28T09:44:26.941+08","level":"info","content":"Starting prometheus agent at 127.0.0.1:9091"}
+{"@timestamp":"2021-01-28T09:48:09.371+08","level":"info","content":"loginfo11111111111"}
+{"@timestamp":"2021-01-28T09:48:09.687+08","level":"info","content":"Starting prometheus agent at 127.0.0.1:9091"}
